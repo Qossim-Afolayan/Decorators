@@ -12,6 +12,6 @@ def complex_business_logic(stakeholder, position):
     print(f"Something  for our {position} {stakeholder}")
 
 
-complex_business_logic("Boris", position = "CEO")
+complex_business_logic(stakeholder = "Boris", position = "CEO")
 
 
