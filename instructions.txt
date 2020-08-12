@@ -1,0 +1,1 @@
+Decorators are funtions that both accept a function as an input and also return it as an output
