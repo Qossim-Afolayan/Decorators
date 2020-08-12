@@ -4,12 +4,12 @@ def be_nice(fnc):
         print("Nice to meet you! I'm honored to execute your function for you")
         print(args)
         fnc(*args, **kwargs)
-        print("It was my pleasure executing your function! Have a nice day!")
+        print("It was my pleasure executing your function! Have a great day!")
 
     return inner
 @be_nice
 def complex_business_logic(stakeholder, position):
-    print(f"Something  for our {position} {stakeholder}")
+    print(f"Something for our {position} {stakeholder}")
 
 
 complex_business_logic(stakeholder = "Boris", position = "CEO")
